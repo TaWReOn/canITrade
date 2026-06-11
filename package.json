@@ -6,6 +6,10 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaWReOn/canITrade.git"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
