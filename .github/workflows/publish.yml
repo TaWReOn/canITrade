@@ -42,6 +42,3 @@ jobs:
 
       - name: Publish to npm
         run: npm publish --provenance --access public --loglevel http
-      - name: Dump npm debug log on failure
-        if: failure()
-        run: cat /home/runner/.npm/_logs/*-debug-0.log
