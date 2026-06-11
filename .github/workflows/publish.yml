@@ -41,4 +41,4 @@ jobs:
         run: yarn build
 
       - name: Publish to npm
-        run: npm publish --provenance --access public --loglevel http
+        run: npm publish
