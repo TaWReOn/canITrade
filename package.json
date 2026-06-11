@@ -1,6 +1,6 @@
 {
   "name": "cantrade",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check whether the NYSE is currently open for trading.",
   "type": "module",
   "main": "./dist/index.cjs",
